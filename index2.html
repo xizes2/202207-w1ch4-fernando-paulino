@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/sprites/brands.svg> -->
+    <title>Lista de Compra</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <h1 class="title">Lista de Compras</h1>
+      <nav class="header-menu__options">
+        <ul class="header-menu__options-list">
+          <li class="header-menu__item">
+            <a href="#">Principal</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#">Lista</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="main-content__add-item">
+        <span class="main-content__add-button">
+          <i class="fa-solid fa-circle-plus"></i>
+        </span>
+        <span class="main-content__items-purchased">2/3 comprados</span>
+      </section>
+      <section class="main-content__list-container">
+        <div>
+          <ul class="main-content__list">
+            <li class="main-content__item">
+              <div class="list-item">
+                <input type="checkbox" name="item1" id="item1" />
+                <label for="item1">Pan</label>
+              </div>
+              <div class="list-price">
+                <span class="price">0.75€</span>
+                <i class="fa-solid fa-x"></i>
+              </div>
+            </li>
+            <li class="main-content__item">
+              <div class="list-item">
+                <input type="checkbox" name="item1" id="item1" />
+                <label for="item1">Azúcar</label>
+              </div>
+              <div class="list-price">
+                <span class="price"></span>
+                <i class="fa-solid fa-x"></i>
+              </div>
+            </li>
+            <li class="main-content__item">
+              <div class="list-item">
+                <input type="checkbox" name="item1" id="item1" />
+                <label for="item1">Leche</label>
+              </div>
+              <div class="list-price">
+                <span class="price">1.20€</span>
+                <i class="fa-solid fa-x"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="total-price"><span>1.95€</span></div>
+      </section>
+    </main>
+  </body>
+</html>
