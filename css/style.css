@@ -27,4 +27,31 @@ h6 {
 
 .header-menu {
   background-color: var(--bluish-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.title {
+  align-self: center;
+}
+
+.header-menu__options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-menu__options-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
