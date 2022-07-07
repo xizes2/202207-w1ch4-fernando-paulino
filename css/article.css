@@ -85,15 +85,6 @@ body {
   padding: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 .main-title {
   font-size: 2rem;
 }
@@ -112,6 +103,25 @@ h6 {
 .article-price-input {
   width: 300px;
   height: 60px;
+}
+
+.button-blue {
+  background-color: var(--bluish-color);
+  padding: 16px 10px;
+  margin-top: 20px;
+  color: #fff;
+  border: 0;
+  width: fit-content;
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 a {
